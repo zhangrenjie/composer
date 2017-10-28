@@ -1,14 +1,14 @@
 {
     "name": "zhangrenjie/composer",
-    "description":"lean composer",
+    "description":"learn composer",
     "type": "library",
     "license": "mit",
-	"authors":{
+	"authors":[
 		{
 			"name":"张仁杰",
 			"email":"jie365@126.com"
 		}
-	},
+	],
 	"minimum-stability":"dev",
     "require": {}
 }
