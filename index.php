@@ -1,2 +1,4 @@
 <?php
-Bootstrap::run();
+require './vendor/autoload.php';
+
+core\Bootstrap::run();
