@@ -14,6 +14,9 @@ class Bootstrap
     //初始化文件
     public static function run()
     {
+        //开启session
+        session_start();
+        //解析路由并调度
         self::parseUrl();
     }
 
@@ -30,6 +33,8 @@ class Bootstrap
             $class = '\web\Controller\Index';
             $action = 'index';
         }
+
+        //调度
         echo (new $class)->$action();
     }
 
