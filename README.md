@@ -1,1 +1,1 @@
-# 通过composer加载快速构建自己的mvc框架
+# 通过composer自动加载快速构建自己的mvc框架
