@@ -24,6 +24,6 @@ class Captcha
 
     //获取验证码
     public function getCode(){
-        echo $_SESSION['phrase'];
+        return $_SESSION['phrase'];
     }
 }
